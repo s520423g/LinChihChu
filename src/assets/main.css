@@ -1,0 +1,41 @@
+@import './base.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .h-calc {
+    height: calc(100vh - 100px);
+  }
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track底色 */
+::-webkit-scrollbar-track {
+    background: #D0C9BC;
+}
+
+/* Handle滾軸色 */
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+}
+
+/* Handle on hover滾軸懸浮色 */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+#app {
+  margin-left: auto;
+  margin-right: auto;
+  /* background-color: #e5dcd1; */
+}
+
+@media (min-width: 1024px) {
+}
